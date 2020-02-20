@@ -56,7 +56,7 @@ public class Ejercicio6 {
 	
 	private static void imprimirResultado(int cantidad, int[][] resultado)
 	{
-		System.out.printf("La cantidad de %d € se puede obtener con:\n",cantidad);
+		System.out.printf("La cantidad de %d € se puede obtener con:\n \n",cantidad);
 		for(int i=resultado[0].length-1;i>=0;i--)
 		{
 			int cantResultado=resultado[1][i];

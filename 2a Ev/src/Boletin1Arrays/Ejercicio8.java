@@ -15,7 +15,7 @@ public class Ejercicio8 {
 		matriz1=obtenerValoresMatriz();
 		matriz2=obtenerValoresMatriz();
 
-		System.out.println("El resultado de imprimir");
+		System.out.println("El resultado de imprimir es: ");
 		imprimirMatriz(matriz1);
 		System.out.println("Por");
 		imprimirMatriz(matriz2);

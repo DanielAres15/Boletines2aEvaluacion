@@ -62,7 +62,7 @@ public class Ejercicio4 {
 			{
 				valorResumen=valorResumen+array[i][j];
 			}
-			System.out.printf("El valor sumatorio de la dimensión %d es %d\n",i,valorResumen);
+			System.out.printf("El valor sumatorio de la fila %d es %d\n",i,valorResumen);
 		}
 	}//calcularEImprimir
 	

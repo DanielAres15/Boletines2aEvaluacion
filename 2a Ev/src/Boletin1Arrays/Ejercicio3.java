@@ -31,8 +31,10 @@ public class Ejercicio3 {
 	
 	private static void imprimir(String[][] array)
 	{
-		System.out.println("El resultado de bÃºsqueda de apariciones es:");
+		System.out.println("El resultado de búsqueda de apariciones es:");
+		
 		//System.out.println(Arrays.deepToString(array));
+		
 		for(int i=0; i<array[0].length;i++)
 		{
 			if(array[0][i]!=null)
@@ -91,5 +93,4 @@ public class Ejercicio3 {
 		return existe;
 	}
 	
-
 }//class

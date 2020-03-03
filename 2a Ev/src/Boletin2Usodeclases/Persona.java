@@ -34,7 +34,7 @@ public class Persona {
 		
 		for (int i=0;i<arrayPersona.length;i++)
 		{
-			
+			p=arrayPersona[i];
 			if (p.obtenerEdad()>personaMayor) {
 				
 				personaMayor= (int) p.obtenerEdad();

@@ -65,8 +65,10 @@ public class Ejercicio1 {
 		System.out.println("La edad de Lorena Remeseiro Neira es: "+p5.obtenerEdad()+" años");
 		System.out.println("La edad de Patricia Seoane Álvarez es: "+p6.obtenerEdad()+" años");
 		
+		
 		Persona [] arrayPersona= {p1, p2, p3, p4, p5, p6};
 		int personaMayor=Persona.personaMayor(arrayPersona);
-		System.out.println("La persona de mayor edad tiene: "+ personaMayor);
+		System.out.println("");
+		System.out.println("La persona de mayor edad tiene: "+ personaMayor+" años y, es: "+p1.nombre+" "+p1.apellidos);
 	}
 }

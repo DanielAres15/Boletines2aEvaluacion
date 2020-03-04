@@ -34,4 +34,7 @@ public class Camion {
 			this.velocidadMaxima=velocidadMaxima;
 			this.conductor=conductor;
 		}
+		public void mostrarDatos() {
+			System.out.printf("Los datos de este camión son: \n Altura: %d\n Remolque: \n %s\n ",altura,remolque);
+		}
 }

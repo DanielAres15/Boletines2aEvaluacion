@@ -13,6 +13,15 @@ public class Coche extends Vehiculo{
 		this.tipo=tipo;
 		this.velocidadMaxima=velocidadMaxima;
 		this.conductor=conductor;
+		
 	}
+	
+	public void mostrarDatos() {
+		super.mostrarDatos();
+		System.out.printf("\n Los datos de este coche son: \n Número de plazas: %d\n \n",numeroPlazas);
+	
+	}
+	
+	
 	
 }

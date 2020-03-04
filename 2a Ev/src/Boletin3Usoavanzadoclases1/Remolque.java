@@ -8,4 +8,10 @@ package Boletin3Usoavanzadoclases1;
 			this.matricula=matricula;
 			this.longitud=longitud;
 		}
+		@Override
+		public String toString() {
+			// TODO Auto-generated method stub
+			return "La matricula del remolque es: " + matricula + " y la longitud: "+longitud;
+					
+		}
 }

@@ -11,6 +11,11 @@ public class Ejercicio1 {
 		
 		coche1.mostrarDatos();
 		
+		camion1.mostrarDatos();
+		
+		//public void impresionPolimorfismo(Vehiculo Vehiculo) {
+			
+		//}
 	}
 
 }

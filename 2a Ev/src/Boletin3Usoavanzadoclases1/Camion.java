@@ -3,7 +3,7 @@ package Boletin3Usoavanzadoclases1;
 import Boletin3Usoavanzadoclases1.Conductor;
 import Boletin3Usoavanzadoclases1.Remolque;
 
-public class Camion {
+public class Camion extends Vehiculo{
 		private int altura;
 		private Remolque remolque;
 		public String matricula;

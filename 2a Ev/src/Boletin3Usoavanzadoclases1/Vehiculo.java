@@ -7,6 +7,17 @@ public class Vehiculo {
 	protected int velocidadMaxima;
 	protected Conductor conductor;
 	
+	public Vehiculo(String matricula, String tipo, int velocidadMaxima, Conductor conductor) {
+		// TODO Auto-generated constructor stub
+		this.matricula = matricula;
+		this.tipo = tipo;
+		this.velocidadMaxima = velocidadMaxima;
+		this.conductor = conductor;
+	}
+	
+	public Vehiculo() {
+		// TODO Auto-generated constructor stub
+	}
 	public String getMatricula() {
 		return matricula;
 	}

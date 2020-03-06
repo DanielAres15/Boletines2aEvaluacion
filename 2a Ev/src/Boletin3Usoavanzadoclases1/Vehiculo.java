@@ -15,6 +15,13 @@ public class Vehiculo {
 		this.conductor = conductor;
 	}
 	
+	public Vehiculo(String matricula, String tipo, int velocidadMaxima) {
+		// TODO Auto-generated constructor stub
+		this.matricula = matricula;
+		this.tipo = tipo;
+		this.velocidadMaxima = velocidadMaxima;
+	}
+	
 	public Vehiculo() {
 		// TODO Auto-generated constructor stub
 	}

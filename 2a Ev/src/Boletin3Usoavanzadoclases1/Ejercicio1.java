@@ -4,7 +4,6 @@ public class Ejercicio1 {
 	
 	public static void main (String[] args) {
 		
-	
 		Conductor conductorCoche1=new Conductor("54856324F","Zaida");
 		Coche coche1=new Coche(5,"2524ASD","Sedán",200,conductorCoche1);
 		Remolque remolque1=new Remolque("5236ASD",1000);
@@ -23,8 +22,11 @@ public class Ejercicio1 {
 		
 		siCamionRemolque(camion1);
 	
+		Camion camion2=new Camion("222FFF","Rígido",100, 5);
 		
+		camion2.mostrarDatos();
 	}
+	
 	public static void impresionPolimorfismo (Vehiculo vehiculo) {
 			vehiculo.mostrarDatos();
 		}
@@ -35,6 +37,5 @@ public class Ejercicio1 {
 			Camion vehCamion=(Camion) vehiculo;
 			System.out.println(vehCamion.getRemolque());
 		}
-		
 	}
 }

@@ -34,6 +34,14 @@ public class Camion extends Vehiculo{
 			this.velocidadMaxima=velocidadMaxima;
 			this.conductor=conductor;
 		}
+		
+		public Camion(String matricula, String tipo, int velocidadMaxima, int altura) {
+				
+			super(matricula,tipo,velocidadMaxima);
+			this.altura = altura;
+			
+		}
+		
 		public void mostrarDatos() {
 			System.out.printf("Los datos de este camión son: \n Altura: %d\n Remolque: \n %s\n ",altura,remolque);
 		}
